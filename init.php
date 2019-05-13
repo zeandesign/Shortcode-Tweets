@@ -63,7 +63,7 @@ add_shortcode( 'tweets', 'wp_tweets' );
 			endforeach;
 	 
 		else :
-			$out .= _e( 'Error fetching feeds. Please verify the Twitter settings in the widget', 'zd' ) .'.';
+			$out .= _e( 'Error fetching feeds. Please verify the Twitter settings.', 'zd' );
 		endif;
 		
 		return $out;
