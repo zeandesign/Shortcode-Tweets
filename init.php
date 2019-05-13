@@ -6,19 +6,19 @@ require_once ( dirname( __FILE__ ) . '/class-zd-helper.php' );
 add_shortcode( 'tweets', 'wp_tweets' );
 
 /*--------------------------------------------------------------------------------------
-     *
-     * Tweets
-     *
-     *-------------------------------------------------------------------------------------*/
+ *
+ * Tweets
+ *
+ *-------------------------------------------------------------------------------------*/
     function wp_tweets( $atts, $content = null ) {
         $atts = shortcode_atts( array(
             'class'                     => false,
-			'oauth_access_token'        => false,
+	    'oauth_access_token'        => false,
             'oauth_access_token_secret' => false,
             'consumer_key'              => false,
             'consumer_secret'           => false,
-			'screen_name'               => 'twitterapi',
-			'count'                     => 5
+	    'screen_name'               => 'twitterapi',
+	    'count'                     => 5
         ), $atts );
         
         $class   = array();
