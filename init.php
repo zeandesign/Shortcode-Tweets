@@ -1,6 +1,7 @@
 <?php
 
 require_once ( dirname( __FILE__ ) . '/TwitterAPIExchange.php' );
+require_once ( dirname( __FILE__ ) . '/class-zd-helper.php' );
 
 add_shortcode( 'tweets', 'wp_tweets' );
 
