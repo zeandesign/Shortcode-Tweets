@@ -68,5 +68,5 @@ add_shortcode( 'tweets', 'wp_tweets' );
 		
 		return $out;
 		
-		// Example Shortcode [tweets oauth_access_token="35760472-LdtmFaDQeDrMd3Ypc6CYfDvn6HZKz3Qu7OwhQGtEO" oauth_access_token_secret="229bnrLc80tuZ0l46htDnmT1l0hQTgxgzS1pIa7iCfExT" consumer_key="IyHBSB2gZRFuaEO2XQJUzPgUb" consumer_secret="E9Cj4Jom5ncfpurXBT8rxvOgxSCaceb4pCiOrz9M941ghE2b8Z" screen_name="zeandesign" count="5"]
+		// Example Shortcode [tweets oauth_access_token="" oauth_access_token_secret="" consumer_key="" consumer_secret="" screen_name="" count="5"]
     }
