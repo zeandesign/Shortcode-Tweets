@@ -21,7 +21,7 @@ add_shortcode( 'tweets', 'wp_tweets' );
 	    'count'                     => 5
         ), $atts );
         
-        $class   = array();
+                $class   = array();
 		$class[] = 'tweet-item';
 		$class[] = ( $atts['class'] ) ? $atts['class'] : null;
 
